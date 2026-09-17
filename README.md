@@ -135,4 +135,3 @@ Fine-tune the transformer (internet is required the first time to obtain the sel
 python scripts/train_transformer.py --data data/processed/corpus.csv --output results/transformer
 ```
 
-Model weights generated from real experiments are intentionally not pre-labelled as research results in this repository. Evaluation metrics should be reported only after running the corresponding experiment on the final corpus.
