@@ -34,7 +34,7 @@ WebTrace/
 │   └── train_transformer.py
 ├── docs/
 │   ├── research_design.md
-│   └── resume_alignment.md
+│  
 ├── tests/
 └── requirements.txt
 ```
@@ -60,7 +60,6 @@ python scripts/prepare_corpus.py data/raw/demo_posts.csv
 python scripts/train_baseline.py
 ```
 
-The demo data is explicitly synthetic and must not be described as public social-media data on a resume.
 
 ## Collect public Mastodon data
 
