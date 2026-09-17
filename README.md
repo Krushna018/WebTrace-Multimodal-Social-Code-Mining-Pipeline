@@ -108,17 +108,6 @@ The first run downloads the model from Hugging Face.
 pytest -q
 ```
 
-## Resume-use guidance
-
-The codebase is built to support a research-style resume project around:
-
-- automated public-data collection and preprocessing;
-- code/repository/image-code signals;
-- taxonomy construction;
-- NLP baselines and transformer classification;
-- rigorous evaluation and error analysis.
-
-Do **not** claim a specific corpus size, manually validated sample size, or macro-F1 until the corresponding real experiment has been run. The architecture supports the target study, but measured results must come from the completed dataset and experiment.
 
 ## Models included
 
